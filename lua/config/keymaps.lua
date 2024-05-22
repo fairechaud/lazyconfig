@@ -4,6 +4,4 @@
 --
 vim.keymap.set("n", "ff", "<Cmd>Telescope find_files<CR>", { silent = true })
 vim.keymap.set("n", "gr", "<Cmd>Telescope live_grep<CR>", { silent = true })
-vim.keymap.set("n", "<leader>v", "<Cmd>Neotree toggle<CR>", { silent = true })
 vim.keymap.set("n", "9", "$")
-vim.keymap.set("v", "9", "$")
